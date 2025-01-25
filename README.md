@@ -1,6 +1,6 @@
 # 🌸 Password Vault - Protect Your Secrets 🌸  
 
-Welcome to **Password Vault**, your trusted companion for managing passwords securely. Built with care and infused with a touch of anime-inspired elegance, this tool ensures your secrets stay safe where they belong—on your main source PC!  
+Welcome to **Password Vault**, your trusted companion for managing passwords securely. This tool ensures your secrets stay safe where they belong—on your main source PC!  
 
 ---
 
