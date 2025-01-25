@@ -1,0 +1,37 @@
+{
+  "name": "password-manager",
+  "version": "1.0.5",
+  "description": "A simple password manager",
+  "bin": "src/passwordManager.js",
+  "type": "module",
+  "main": "src/passwordManager.js",
+  "scripts": {
+    "start": "node src/passwordManager.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "pkg": {
+    "scripts": [
+      "src/*",
+      "!node_modules/*"
+    ],
+    "assets": "data/**/*"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "chalk": "^5.4.0",
+    "clipboardy": "^4.0.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0"
+  }
+}
